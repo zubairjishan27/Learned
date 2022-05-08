@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/**************************
+**Learned css starts
+***************************/
+.header{
+    width: 100%;
+    padding: 0px 0px 320px;
+    background: url(../images/banner.png) center top no-repeat;
+    background-size: cover;
+}
+.main-menu{
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    border-bottom: 1px solid #ffc178;
+    color: #ffc178;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #5e6e78;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+    border-bottom: 1px solid #ffc178;
+}
+.main-menu .btn-default{
+    margin-left: 150px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    background: #ffc178;
+    border: 1px solid white;
+    transition: 1s ease-in;
+}
+.main-menu .btn-default:hover , .main-menu .btn-default:focus{
+    border: 1px solid #ffc178;
+    color: #ffc178;
+    background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.banner .context{
+    margin-top: 80px;
+}
+.banner h1{
+    font-size: 35px;
+    color: #ffc178;
+}
+.banner p{
+    color: #5e6e78;
+    margin-bottom: 30px;
+}
+.banner .btn-default{
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    background: #ffc178;
+    border: 1px solid white;
+    transition: 1s ease-in;
+}
+.banner .btn-default:hover ,.banner .btn-default:focus{
+    border: 1px solid #ffc178;
+    color: #ffc178;
+    background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.department{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.department .context{
+    margin-top: -50px;
+    text-align: center;
+}
+.department .context h2{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.department .context p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #5e6e78;
+}
+.department .context{
+    margin-bottom: 40px;
+}
+.department .education{
+    margin-bottom: -270px;
+}
+.department .innerbox{
+    color: white;
+    text-align: center;
+    padding: 20px 0px 50px;
+    border: 2px solid transparent;
+    transition: 1s ease-in;
+}
+.department .innerbox h5{
+    font-size: 22px;
+    word-spacing: 2px;
+    font-weight: 700;
+}
+.department .first{
+    background: #f9703a;
+}
+.department .second{
+    padding: 20px 0px 47px;
+    background: #80be41;
+}
+.department .innerbox:hover, .department .innerbox:focus{
+    box-shadow: 0px 15px 25px rgba( 0, 0, 0, 0.3) ;
+    color: black;
+}
+.countersec{
+    padding: 20px 0px;
+}
+.video{
+    width: 100%;
+    padding: 280px 0px;
+    background: url(../images/About\ Chairman.png) center top no-repeat;
+    background-size: 800px;
+    background-position: -230px;
+}
+.video .intro .img-fluid{
+    height: 410px;
+    width: 410px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.intro{
+    margin-top: 10px;
+}
+.video .context{
+    margin-top: 20px;
+}
+.video .context h1{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.video .context p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #5e6e78;
+}
+.countersec .students{
+    color: #ffba00;
+}
+.countersec .courses{
+    color: #ff5f72;
+}
+.countersec .videos{
+    color: #43cb83;
+}
+.around{
+    width: 100%;
+    background: url(../images/BG.png) center top no-repeat;
+    padding: 145px 0px 0px;
+    background-size: 540px;
+    background-position: 900px;
+    margin-top: -280px;
+}
+.around .context h1{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.features{
+    width: 100%;
+    padding: 80px 0px;
+}
+.features .card-title{
+    color: black;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.features .card-text{
+    font-size: 15px;
+    color: black;
+}
+.features .card{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    transition: 1s ease-in;
+}
+.features .card-body{
+    border: 1px solid #fdf6ee;
+}
+.card:hover{
+    box-shadow: 0px 15px 25px rgba( 0, 0, 0, 0.3) ;
+}
+.card:hover .card-title{
+    color: #ffc178;
+}
+.footer{
+    padding: 60px 0px 80px;
+    background: #252c3a;
+}
+.footer p{
+    margin: 20px 0px 40px;
+    color: #8e8e8f;
+    font-size: 12px;
+}
+.footer .socials{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+.first ul li{
+    display: inline;
+    list-style: none;
+    margin: 0px;
+}
+.first ul li a{
+    margin-right: 20px;
+    color: white;
+}
+.first .fa{
+    transition: 1s;
+    font-size: 30px;
+}
+.first a:hover .fa{
+    color: #ffc178;
+}
+.footer ul li a{
+    color: #8e8e8f;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer ul li{
+    font-size: 12px;
+    padding: 10px 0px;
+    list-style: none;
+}
+.footer h6{
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer .support{
+    margin: 40px 0px 20px;
+    font-size: 11px;
+}
+.footer .form-control{
+    width: 89%;
+    font-size: 13px;
+    border-radius: 0%;
+}
+.footer .form-control:hover , .footer .form-control:focus{
+    box-shadow: none;
+}
+.footer .btn-warning{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 0%;
+    background: #ffc178;
+    border: 0px;
+    margin-left: -45px;
+    padding: 8px 8px;
+}
+.footer .btn-warning:hover{
+    border: 0px;
+    background: #5ca5fe;
+    color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.second{
+    padding: 10px 0px;
+    background: #1d232e;
+    border-top: 1px solid #8e8e8f;
+}
+.second ul li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.second ul{
+    padding: 0px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+.second .copyright{
+    margin-bottom: 0px;
+    text-align: left;
+    color: #8e8e8f;
+    font-size: 12px;
+}
+.second ul li a{
+    text-align: right;
+    font-size: 12px;
+    color: #8e8e8f;
+    margin-left: 20px;
+}
